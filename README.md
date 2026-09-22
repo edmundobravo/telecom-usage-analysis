@@ -45,11 +45,15 @@ El último caso merece atención: cada fila de `usage` registra un solo tipo de 
 
 ```
 ├── notebooks/
-│   └── connectatel_analysis.ipynb   # Notebook principal
+│   └── ConnectaTel_analysis.ipynb
+├── data/
+│   ├── plans.csv
+│   ├── users_latam.csv
+│   └── usage.csv
 └── README.md
 ```
 
-> **Nota sobre los datasets:** los tres archivos de entrada se cargan desde el entorno de TripleTen (`/datasets/`) y no están incluidos en este repositorio.
+> **Nota sobre los datasets:** los tres archivos de entrada se encuentran en la carpeta data/ incluidos en este repositorio.
 
 ---
 
@@ -65,7 +69,9 @@ O manualmente: abre el archivo `.ipynb` desde GitHub y haz clic en **Open in Col
 
 1. Abre `notebooks/connectatel_analysis.ipynb`.
 2. Ejecuta las celdas **en orden**, de arriba hacia abajo. Cada paso depende del anterior.
-3. Para ejecutarlo fuera del entorno de TripleTen, ajusta las rutas de `pd.read_csv()` en la celda de carga del Paso 1 apuntando a la ubicación local de los tres CSV.
+3. Los tres datasets están incluidos en `data/`. Si ejecutas el notebook fuera 
+   del entorno de TripleTen, ajusta las rutas de `pd.read_csv()` en la celda de 
+   carga del Paso 1 a `../data/`.
 
 **Dependencias:** `pandas`, `numpy`, `seaborn`, `matplotlib`
 
