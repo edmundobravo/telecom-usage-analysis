@@ -59,7 +59,7 @@ El último caso merece atención: cada fila de `usage` registra un solo tipo de 
 
 ## ▶️ Cómo abrir el notebook en Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK_EN_GITHUB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/edmundobravo/telecom-usage-analysis/blob/main/notebooks/ConnectaTel_analysis.ipynb)
 
 O manualmente: abre el archivo `.ipynb` desde GitHub y haz clic en **Open in Colab**.
 
